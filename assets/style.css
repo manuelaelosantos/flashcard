@@ -1,5 +1,11 @@
+ :root {
+    --text-color: #dbe4ef;
+    --card-front-color: #144480;
+    --card-back-color: #00f4bf;
+ }
+
 body{
-    background-color: blanchedalmond;
+    background: url('img/bg-desktop.webp');
     font-family: 'Bai Jamjuree';
 }
 
@@ -16,12 +22,13 @@ body{
 }
 
 .cartão__conteudo {
+    background-color: var(--card-front-color);
     text-align: center;
     height: 100%;
 }
 
 .cartao__conteudo h3 {
- background-color: chartreuse;
+ color: var(--text-color);
  text-align: left;
  padding: 0.5rem;
  position: absolute;
